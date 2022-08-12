@@ -79,6 +79,7 @@ a,
 }
 
 .informationcontainer{
+    padding-top: 50px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -110,4 +111,25 @@ a,
     align-items: center;
     font-size: 18px;
     text-align: center;
+}
+
+.quotecontainer{
+    background-color: #E5E7EB;
+    padding: 150px 500px;
+}
+
+.quotecontent{
+    display: flex;
+    justify-content: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.quotecredit{
+    display: flex;
+    justify-content: flex-end;
+    color: #1F2937;
+    font-weight: 700;
+    font-size: 24px;
 }
