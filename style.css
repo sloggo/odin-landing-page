@@ -8,9 +8,9 @@ body{
 .header{
     display: flex;
     align-items: center;
-    padding-left: 16px;
     background-color: #1F2937;
     color: #F9FAF8;
+    padding: 0px 200px;
 }
 
 .webtitle{
@@ -28,4 +28,52 @@ ul.nav{
     margin-left: auto;
     gap: 24px;
     margin-right: 16px;
+}
+
+a,
+.welcomesubtext{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.welcometext{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: center;
+    width: 40%;
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937 ;
+    padding: 50px 200px;
+    gap: 40px;
+}
+
+.welcometitle{
+    margin-bottom: 20px;
+    padding: 0;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.welcomeimage{
+    width: 40%;
+    height: auto;
+}
+
+.signupbutton{
+    margin-top:30px;
+    margin-bottom:30px;
+    background-color: #3882F6;
+    margin-right: auto;
+    padding: 10px 50px;
+    border-radius: 13px;
 }
