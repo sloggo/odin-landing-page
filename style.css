@@ -133,3 +133,33 @@ a,
     font-weight: 700;
     font-size: 24px;
 }
+
+.calltoactioncontainer{
+    margin: 75px auto;
+    padding: 50px 150px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    background-color: #3882F6; 
+    justify-content: center;
+    gap: 500px;
+}
+
+.calltoactiontext{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.calltoactiontitle,
+.calltoactiontext{
+    color: #F9FAF8;
+    margin: 0%;
+    padding: 0;
+}
+
+.calltoactionbutton{
+    border: 2px solid #E5E7EB;
+    padding: 7px 40px;
+    border-radius: 5px;
+}
