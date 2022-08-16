@@ -172,3 +172,20 @@ a,
     color: #F9FAF8;
     font-weight: 200;
 }
+
+#Coins g{
+    opacity: 0;
+    animation: dropIn 8s ease forwards infinite;
+    animation-delay: calc((var(--order) * 200ms)) ;
+}
+
+@keyframes dropIn {
+    20%{
+        opacity: 0;
+        transform: translateY(-50%);
+    }
+
+    30%, 100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
